@@ -1,0 +1,104 @@
+    /* rest css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+    /* header */
+header{
+    width: 100%;
+    height: 120px;
+    padding: 50px 210px; 
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 96px;
+}
+header li{
+    height: 70px;
+    float: left;
+    margin: 0px 40px;
+    background-color: #C4C4C4;
+    padding: 23px 26px 23px 18px;
+    border-radius: 0 35px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+header li a{
+    width: 184px;
+    height: 24px;
+    font-size: 18px;
+    color: #000000;
+
+}
+.one{
+    width: 228px;
+}
+.two{
+    width: 126px;
+}
+.tree{
+    width: 72px;
+}
+header li:hover{
+    background-color: green;
+}
+    /* main */
+
+main{
+    font-size: 18px;
+}    
+.maindiv{
+    width: 1036px;
+    height: 430px;
+    margin-left: 210px;
+    position: relative; 
+}
+.rectangle1{
+    width: 518px;
+    height: 215px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.fotoli{
+    width: 70px;
+    height: 70px;
+    background-color: green;
+    border-radius:0 35px;
+}
+.rectangle2{
+    width: 518px;
+    height: 215px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.rectangle3{
+    width: 518px;
+    height: 215px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.rectangle4{
+    width: 518px;
+    height: 215px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.gero{
+    width: 5px;
+    height: 430px;
+    background-color: black;
+    margin: 0 auto;
+    
+}
+
